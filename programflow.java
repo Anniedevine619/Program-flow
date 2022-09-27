@@ -7,32 +7,15 @@
  */
 public class programflow
 {
-    
-    int a = 5;
-    int b = 2;
-    int c = 1;
-    int d = -8;
-    
     public void run() {
-        if (a == 5) {
-            System.out.println("SUCCESS");
-        }else { 
-            System.out.println("FAILURE");
+        for (int i = 0; i< 15; i = i + 1) {
+            System.out.println("I is equal to" + i);
         }
-        if (b == 2) {
-            System.out.println("SUCCESS");
-        }else {
-            System.out.println("FAILURE");
+        for (int j = 10; j != 0; j = j - 2) {
+            System.out.println("j is equal to" + j);
         }
-        if (b != 1) {
-            System.out.println("SUCCESS");
-        }else {
-            System.out.println("FAILURE");
-        }
-        if (d == -8 && d == 4) {
-            System.out.println("SUCCESS");
-        }else {
-            System.out.println("FAILURE");
+        for (int k = 10; k != 0; k = k - 3) {
+            System.out.println("k is equal to" + k);
         }
     }
     
